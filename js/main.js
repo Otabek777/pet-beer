@@ -1,3 +1,7 @@
+$(".header__burgir").click(function() {
+    $(this).toggleClass("open");
+    $(".main__aside").toggleClass("open")
+});
 if(document.querySelector(".education__aside .item")) {
     $(".education__aside .item").click(function() {
         $(this).toggleClass("active");
