@@ -1053,6 +1053,7 @@ ul, ol {
   height: 143px;
   position: relative;
   overflow: hidden;
+  border-radius: 5px;
 }
 .job_statistics__img img {
   width: 100%;
@@ -1339,6 +1340,23 @@ ul, ol {
 }
 
 @media screen and (max-width: 1830px) {
+  .employees__from .input {
+    width: 48%;
+  }
+
+  .employees__from .input.email, .employees__from .input.phone {
+    width: 48%;
+  }
+
+  .employees__from .btn {
+    width: 48%;
+    margin-top: 44px;
+  }
+
+  .employees__from .wrap {
+    padding: 26px 32px 32px 32px;
+  }
+
   .main__aside {
     width: 252px;
     padding: 22px 7px 22px 8px;
@@ -1815,5 +1833,462 @@ ul, ol {
 
   .employees__table {
     width: calc(100% + 30px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .main__content {
+    width: 100%;
+  }
+
+  .header {
+    height: 55px;
+    padding: 0 15px;
+  }
+  .header .container {
+    padding: 0;
+  }
+
+  .header__search {
+    display: none;
+  }
+
+  .header__logo {
+    width: 107px;
+    height: 26px;
+  }
+
+  .header__right {
+    padding-left: 19px;
+  }
+
+  .header__admin, .header__partner, .header__super_admin {
+    margin-right: 0;
+  }
+
+  .main {
+    padding-top: 55px;
+  }
+
+  .main__content {
+    padding-top: 32px;
+  }
+
+  .main__title {
+    margin-bottom: 14px;
+  }
+
+  .main__title .h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .main__title .edit {
+    display: none;
+  }
+
+  .main__text {
+    padding: 27px 20px;
+    margin-bottom: 36px;
+  }
+
+  .title_h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .news__wrap {
+    width: calc(100% + 15px);
+    overflow-x: scroll;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .news__item {
+    min-width: 250px;
+    width: 250px;
+    height: 590px;
+    margin-right: 12px;
+    padding: 8px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .news__item .img {
+    min-height: 234px;
+    height: 234px;
+    width: 100%;
+  }
+
+  .news__item .content {
+    width: 100%;
+    padding: 24px 12px;
+  }
+
+  .news__item .title {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 16px;
+  }
+
+  .news__item .text {
+    font-size: 16px;
+    line-height: 175%;
+    height: 224px;
+    margin-bottom: 12px;
+  }
+
+  .news__item .link {
+    font-size: 14px;
+    line-height: 175%;
+    margin-right: 20px;
+  }
+
+  .news__item .date {
+    font-size: 14px;
+    line-height: 175%;
+  }
+
+  .news__btn {
+    display: none;
+  }
+
+  .news__item .option {
+    top: 16px;
+    right: auto;
+    left: 16px;
+    z-index: 1;
+  }
+  .news__item .option .btn {
+    width: 40px;
+    height: 16px;
+    padding: 4px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 18px;
+  }
+  .news__item .option .btn span {
+    width: 8px;
+    height: 8px;
+    background: #2461CC;
+    margin: 0;
+  }
+
+  .creation__block {
+    width: 100%;
+    height: 244px;
+    margin-bottom: 12px;
+  }
+
+  .creation__block .img {
+    height: 140px;
+  }
+
+  .creation__block .img2 {
+    height: 140px;
+  }
+
+  .creation__block .img2 h6 {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 14.9px;
+    margin-top: 30px;
+  }
+
+  .creation__block .link h5 {
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 22px;
+  }
+
+  .creation__block .link a {
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 22px;
+  }
+
+  .creation__block .colors .red, .creation__block .colors .black, .creation__block .colors .white {
+    width: 75px;
+    height: 75px;
+  }
+
+  .education__aside .ul .li {
+    width: 100%;
+  }
+
+  .education__aside .item::after {
+    display: none;
+  }
+
+  .education__aside .ul {
+    padding: 0 20px;
+  }
+
+  .education__aside .ul .item {
+    padding: 24px 0;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .education__aside .ul .item.active {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    background: #E9EFFA;
+    border-radius: 5px;
+    padding: 24px 20px;
+  }
+
+  .education__aside .item.active::before {
+    display: none;
+  }
+
+  .article__block {
+    height: auto;
+    margin-bottom: 12px;
+  }
+
+  .article__block .img {
+    height: 153px;
+  }
+  .article__block .img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .article__block .content {
+    padding: 23px 12px;
+  }
+
+  .article__block .name {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .article__block .text {
+    margin-bottom: 12px;
+  }
+
+  .article__block .link {
+    font-size: 14px;
+    line-height: 175%;
+    margin-right: 32px;
+  }
+
+  .article__block .date {
+    font-size: 14px;
+    line-height: 175%;
+    margin-left: 0;
+  }
+
+  .document__wrap {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .document__block {
+    margin-bottom: 23px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .document__block .icon {
+    min-width: 38px;
+    width: 38px;
+    height: 38px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 11px;
+  }
+  .document__block .icon svg {
+    width: 12px;
+    height: 17px;
+  }
+
+  .document__block .text {
+    font-size: 14px;
+    line-height: 136.5%;
+  }
+
+  .document__block:last-child {
+    margin-bottom: 0;
+  }
+
+  .document {
+    padding-bottom: 0;
+  }
+
+  .education .education__aside .ul .li {
+    width: 100%;
+  }
+
+  .education__wrap_block {
+    padding: 8px;
+  }
+  .education__wrap_block .title, .education__wrap_block .text {
+    padding: 0 12px;
+  }
+
+  .employees .education__wrap_block {
+    padding: 26px 20px;
+  }
+  .employees .education__wrap_block .title, .employees .education__wrap_block .text {
+    padding: 0;
+  }
+
+  .employees .education__wrap_block.table_person {
+    padding: 0;
+  }
+
+  .education__wrap .img {
+    height: 184px;
+    margin-bottom: 36px;
+  }
+  .education__wrap .img img {
+    width: auto;
+    height: 100%;
+  }
+
+  .education__wrap .img_galery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .education__wrap .img_galery .img {
+    width: 100%;
+    height: 184px;
+    margin-bottom: 20px;
+  }
+
+  .employees__from .input {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .employees__from .input.email, .employees__from .input.phone {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .employees__from .btn {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .employees__from .wrap {
+    padding: 40px 20px 44px 20px;
+  }
+
+  .employees__table {
+    background-color: #fff;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    padding-top: 14px;
+  }
+
+  .education_3_table {
+    background-color: #fff;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    padding-top: 14px;
+  }
+
+  .employees__block {
+    padding: 15px 20px;
+  }
+
+  .employees__table .top_wrap {
+    padding: 0 20px;
+  }
+
+  .employees__table .top_wrap, .employees__block {
+    min-width: 890px;
+  }
+
+  .job_statistics {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .job_statistics__img {
+    width: 100%;
+    height: 272px;
+  }
+
+  .job_statistics__wrap {
+    width: calc(100% + 16px);
+    padding: 0;
+    margin-left: -8px;
+    padding: 24px 0 10px 0;
+  }
+
+  .education__wrap_block.person_data {
+    padding: 8px;
+  }
+
+  .job_statistics__wrap .person_name {
+    padding: 0 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 28px;
+  }
+
+  .job_statistics__wrap .person_name .status {
+    margin-left: 0;
+    margin-top: 7px;
+  }
+
+  .job_statistics__table .top {
+    padding: 15px 19px 17px 19px;
+    background: #F6F9FD;
+    border-top: 1px solid #E7E9ED;
+    border-bottom: 1px solid #E7E9ED;
+  }
+
+  .job_statistics__block {
+    padding: 14px 19px 16px 19px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .job_statistics__block .status {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .job_statistics__block .courses {
+    width: 148px;
+  }
+
+  .education_3_table .top_wrap {
+    padding: 0 20px;
+  }
+
+  .education_3__block {
+    padding: 15px 19px;
   }
 }
