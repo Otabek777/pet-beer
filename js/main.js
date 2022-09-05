@@ -60,4 +60,14 @@ if(document.querySelector('.input_phone')) {
       });
     
     });
-}
+};
+
+if(document.querySelector(".person_edit")) {
+    $(".header__admin").click(function() {
+        $(".person_edit").addClass("active");
+    });
+    $(".person_edit__wrap .close").click(function() {
+        $(".person_edit").removeClass("active");
+    });
+    
+};
