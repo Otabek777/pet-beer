@@ -446,6 +446,12 @@ ul, ol {
 .main__title .edit:focus svg path {
   stroke: #184FB0;
 }
+.main__title .edit.active {
+  color: #184FB0;
+}
+.main__title .edit.active svg path {
+  stroke: #184FB0;
+}
 
 .main__text {
   padding: 31px 44px 34px 44px;
@@ -470,6 +476,268 @@ ul, ol {
   line-height: 29px;
   color: #253045;
   margin-bottom: 24px;
+}
+
+.edit_text {
+  margin-bottom: 32px;
+}
+
+.admin_page {
+  width: 1109px;
+}
+
+.admin_page__wrap {
+  padding: 41px 44px 44px 44px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.admin_page__wrap .add_chapter {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2461CC;
+  border: 0;
+  background-color: transparent;
+  margin-bottom: 27px;
+}
+.admin_page__wrap .btn_done {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 154px;
+  height: 57px;
+  background: #2461CC;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.admin_page__wrap .input {
+  width: 100%;
+  margin-bottom: 26px;
+}
+.admin_page__wrap .input .h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #253045;
+  margin-bottom: 7px;
+}
+.admin_page__wrap .input .h5 .delete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #E05B51;
+}
+.admin_page__wrap .input .h5 .delete .icon {
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid #E05B51;
+  border-radius: 50%;
+  margin-right: 7px;
+  position: relative;
+}
+.admin_page__wrap .input .h5 .delete .icon span {
+  display: block;
+  width: 6px;
+  height: 2px;
+  background-color: #E05B51;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+          transform: translate(-50%, -50%) rotate(-45deg);
+}
+.admin_page__wrap .input .h5 .delete .icon span:last-child {
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+}
+.admin_page__wrap .input input {
+  width: 100%;
+  height: 57px;
+  border: 1px solid #DADCE0;
+  border-radius: 5px;
+  padding: 0 23px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.admin_page__wrap .input input::-webkit-input-placeholder {
+  color: #A5A3BA;
+}
+.admin_page__wrap .input input::-moz-placeholder {
+  color: #A5A3BA;
+}
+.admin_page__wrap .input input:-ms-input-placeholder {
+  color: #A5A3BA;
+}
+.admin_page__wrap .input input::-ms-input-placeholder {
+  color: #A5A3BA;
+}
+.admin_page__wrap .input input::placeholder {
+  color: #A5A3BA;
+}
+.admin_page__wrap .input textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 202px;
+  min-height: 202px;
+  max-height: 202px;
+  border: 1px solid #DADCE0;
+  border-radius: 5px;
+  padding: 16px 23px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.admin_page__wrap .input textarea::-webkit-input-placeholder {
+  color: #A5A3BA;
+}
+.admin_page__wrap .input textarea::-moz-placeholder {
+  color: #A5A3BA;
+}
+.admin_page__wrap .input textarea:-ms-input-placeholder {
+  color: #A5A3BA;
+}
+.admin_page__wrap .input textarea::-ms-input-placeholder {
+  color: #A5A3BA;
+}
+.admin_page__wrap .input textarea::placeholder {
+  color: #A5A3BA;
+}
+.admin_page__wrap .input select {
+  max-width: 500px;
+  width: 100%;
+  height: 57px;
+  border: 1px solid #DADCE0;
+  border-radius: 5px;
+  padding: 0 23px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  cursor: pointer;
+}
+.admin_page__wrap .input .file_wrap {
+  position: relative;
+}
+.admin_page__wrap .input .file {
+  width: 312px;
+  height: 191px;
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+}
+.admin_page__wrap .input .file_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 312px;
+  height: 191px;
+  background: #FFFFFF;
+  border: 1px solid #DADCE0;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.admin_page__wrap .input .file_btn span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 272px;
+  height: 151px;
+  background: #FFFFFF;
+  border: 1px dashed #2461CC;
+  border-radius: 5px;
+}
+.admin_page__wrap .input .file_btn span .icon {
+  position: relative;
+  margin-bottom: 7px;
+}
+.admin_page__wrap .input .file_btn span .icon .plus {
+  width: 14px;
+  height: 14px;
+  background: #E4EFFF;
+  border: 2px solid #528ADE;
+  position: absolute;
+  bottom: 0;
+  right: -5px;
+  border-radius: 50%;
+}
+.admin_page__wrap .input .file_btn span .icon .plus i {
+  width: 4px;
+  height: 2px;
+  background-color: #528ADE;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.admin_page__wrap .input .file_btn span .icon .plus i:last-child {
+  -webkit-transform: translate(-50%, -50%) rotate(90deg);
+          transform: translate(-50%, -50%) rotate(90deg);
+}
+.admin_page__wrap .input .file_btn .p {
+  max-width: 141px;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 125%;
+  text-align: center;
+  color: #A5A3BA;
+}
+.admin_page__wrap .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.admin_page__wrap .box .input {
+  width: 500px;
 }
 
 .add_news {
@@ -2232,6 +2500,21 @@ ul, ol {
             justify-content: space-between;
     padding-right: 20px;
   }
+
+  .admin_page {
+    width: 583px;
+  }
+
+  .admin_page__wrap .box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .admin_page__wrap .box .input {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1119px) {
   .header__burgir {
@@ -2526,6 +2809,33 @@ ul, ol {
   }
 }
 @media screen and (max-width: 767px) {
+  .admin_page {
+    width: 100%;
+  }
+
+  .admin_page__wrap {
+    padding: 41px 15px 44px 15px;
+  }
+
+  .admin_page__wrap .input {
+    margin-bottom: 18px;
+  }
+
+  .admin_page__wrap .input .file {
+    width: 100%;
+    height: 158px;
+  }
+
+  .admin_page__wrap .input .file_btn {
+    width: 100%;
+    height: 158px;
+    padding: 17px;
+  }
+  .admin_page__wrap .input .file_btn span {
+    width: 100%;
+    height: 100%;
+  }
+
   .container {
     padding: 0 15px;
   }
