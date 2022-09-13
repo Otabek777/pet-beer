@@ -479,6 +479,8 @@ ul, ol {
 }
 
 .edit_text {
+  max-width: 685px;
+  width: 100%;
   margin-bottom: 32px;
 }
 
