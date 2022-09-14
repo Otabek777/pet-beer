@@ -90,7 +90,7 @@
                         </a>
                     </li>
                     <li class="li">
-                        <a href="#" class="item active">
+                        <a href="#" class="item">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                     <path d="M7.84713 5.38429C8.05661 5.31446 8.28331 5.31593 8.49187 5.38848L14.6423 7.52775C15.0899 7.68346 15.0899 8.31654 14.6423 8.47225L8.49187 10.6115C8.28332 10.6841 8.05661 10.6855 7.84713 10.6157L2.84605 8.94868C1.93435 8.64478 1.93435 7.35522 2.84605 7.05132L7.84713 5.38429Z" fill="#253045"/>
@@ -133,7 +133,7 @@
                         </a>
                     </li>
                     <li class="li">
-                        <a href="#" class="item">
+                        <a href="#" class="item active">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
                                     <rect y="4.01172" width="18.4637" height="18.4637" rx="1" fill="#253045"/>
@@ -153,60 +153,136 @@
             </div>
             <div class="main__content">
                 <div class="container">
-                    <section class="admin_page">
-                        <div class="main__title">
-                            <h2 class="h2">Создать новую статью</h2>
-                        </div>
-                        <div class="admin_page__wrap">
-                            <div class="input_box">
-                                <div class="input">
-                                    <p class="h5">Заголовок</p>
-                                    <input type="text" placeholder="Название статьи">
-                                </div>
-                                <div class="input">
-                                    <p class="h5">Краткое описание</p>
-                                    <input type="text" placeholder="Описание">
-                                </div>
+                    <section class="article">
+                        <div class="article__posts">
+                            <div class="main__title">
+                                <h2 class="h2">Статьи</h2>
+                                <a href="#" class="edit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M0.75 8C0.75 3.99594 3.99594 0.75 8 0.75C12.0041 0.75 15.25 3.99594 15.25 8C15.25 12.0041 12.0041 15.25 8 15.25C3.99594 15.25 0.75 12.0041 0.75 8Z" stroke="#A5A3BA" stroke-width="1.5"/>
+                                        <path d="M8 6L8 10" stroke="#A5A3BA" stroke-width="1.5" stroke-linecap="round"/>
+                                        <path d="M6 8H10" stroke="#A5A3BA" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                    Добавить статью
+                                </a>
                             </div>
-                            <div class="input">
-                                <p class="h5">Текст статьи</p>
-                                <textarea placeholder="Текст"></textarea>
-                            </div>
-                            <div class="input_file">
-                                <p class="h5">Картинка</p>
-                                <div class="file_wrap">
-                                    <input type="file" class="file">
-                                    <div class="file_btn">
-                                        <span>
-                                            <div class="icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" viewBox="0 0 30 40" fill="none">
-                                                    <path d="M29 10.5L18.5 1.5V8.5C18.5 9.7 19.8333 10.6667 20.5 11L29 10.5Z" fill="#E4EFFF"/>
-                                                    <path d="M1 7C1 3.68629 3.68629 1 7 1H17.6429C18.1951 1 18.6429 1.44771 18.6429 2V8.64286C18.6429 9.74743 19.5383 10.6429 20.6429 10.6429H28C28.5523 10.6429 29 11.0906 29 11.6429V33C29 36.3137 26.3137 39 23 39H7C3.68629 39 1 36.3137 1 33V7Z" fill="#E4EFFF" stroke="#528ADE" stroke-width="2"/>
-                                                    <path d="M29 14.5V10.5714L18.7143 1H13" stroke="#528ADE" stroke-width="2"/>
-                                                    <path d="M9 17H22" stroke="#528ADE" stroke-width="2" stroke-linecap="round"/>
-                                                    <path d="M9 23H22" stroke="#528ADE" stroke-width="2" stroke-linecap="round"/>
-                                                    <path d="M9 29H22" stroke="#528ADE" stroke-width="2" stroke-linecap="round"/>
-                                                </svg>
-                                                <div class="plus">
-                                                    <i></i>
-                                                    <i></i>
-                                                </div>
-                                            </div>
-                                            <p class="p">Нажмите или просто перетащить файл сюда</p>
-                                        </span>
+                            <div class="article__box">
+                                <div class="article__block">
+                                    <div class="img">
+                                        <img src="img/article.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5 class="name">День шахмат</h5>
+                                        <p class="text">Эта страница создана для демонстрации блоков и элементов, которые используются на сайте, и служит руководством для всех, кто работает над ним</p>
+                                        <div class="box">
+                                            <a href="#" class="link">Читать полностью</a>
+                                            <p class="date">22.02.2022</p>
+                                            <p class="category">Дизайн</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article__block">
+                                    <div class="img">
+                                        <img src="img/article.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5 class="name">День шахмат</h5>
+                                        <p class="text">Эта страница создана для демонстрации блоков и элементов, которые используются на сайте, и служит руководством для всех, кто работает над ним</p>
+                                        <div class="box">
+                                            <a href="#" class="link">Читать полностью</a>
+                                            <p class="date">22.02.2022</p>
+                                            <p class="category">Мотивация</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article__block">
+                                    <div class="img">
+                                        <img src="img/article.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5 class="name">День шахмат</h5>
+                                        <p class="text">Эта страница создана для демонстрации блоков и элементов, которые используются на сайте, и служит руководством для всех, кто работает над ним</p>
+                                        <div class="box">
+                                            <a href="#" class="link">Читать полностью</a>
+                                            <p class="date">22.02.2022</p>
+                                            <p class="category">Мотивация</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article__block">
+                                    <div class="img">
+                                        <img src="img/article.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5 class="name">День шахмат</h5>
+                                        <p class="text">Эта страница создана для демонстрации блоков и элементов, которые используются на сайте, и служит руководством для всех, кто работает над ним</p>
+                                        <div class="box">
+                                            <a href="#" class="link">Читать полностью</a>
+                                            <p class="date">22.02.2022</p>
+                                            <p class="category">Мотивация</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article__block">
+                                    <div class="img">
+                                        <img src="img/article.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5 class="name">День шахмат</h5>
+                                        <p class="text">Эта страница создана для демонстрации блоков и элементов, которые используются на сайте, и служит руководством для всех, кто работает над ним</p>
+                                        <div class="box">
+                                            <a href="#" class="link">Читать полностью</a>
+                                            <p class="date">22.02.2022</p>
+                                            <p class="category">Мотивация</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article__block">
+                                    <div class="img">
+                                        <img src="img/article.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5 class="name">День шахмат</h5>
+                                        <p class="text">Эта страница создана для демонстрации блоков и элементов, которые используются на сайте, и служит руководством для всех, кто работает над ним</p>
+                                        <div class="box">
+                                            <a href="#" class="link">Читать полностью</a>
+                                            <p class="date">22.02.2022</p>
+                                            <p class="category">Мотивация</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="input">
-                                <p class="h5">Категория</p>
-                                <select name="" id="">
-                                    <option value="Дизайн">Дизайн</option>
-                                    <option value="Дизайн">Дизайн</option>
-                                    <option value="Дизайн">Дизайн</option>
-                                    <option value="Дизайн">Дизайн</option>
-                                </select>
+                            <div class="article__btn">
+                                <button class="btn">Загрузить больше статей</button>
                             </div>
-                            <button class="btn_done">Сохранить</button>
+                        </div>
+                        <div class="education__aside">
+                            <div class="wrap">
+                                <h5 class="title">Категории</h5>
+                                <ul class="ul">
+                                    <li class="li">
+                                        <p href="#" class="item active">Все</p>
+                                    </li>
+                                    <li class="li">
+                                        <p href="#" class="item">Дизайн</p>
+                                    </li>
+                                    <li class="li">
+                                        <p href="#" class="item">Мотивация</p>
+                                    </li>
+                                    <li class="li">
+                                        <p href="#" class="item">Дизайн</p>
+                                    </li>
+                                    <li class="li">
+                                        <p href="#" class="item">Мотивация</p>
+                                    </li>
+                                    <li class="li">
+                                        <p href="#" class="item">Дизайн</p>
+                                    </li>
+                                    <li class="li">
+                                        <p href="#" class="item">Мотивация</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </section>
                 </div>
